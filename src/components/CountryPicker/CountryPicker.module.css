@@ -1,0 +1,20 @@
+.formControl {
+  width: 80%;
+  margin-bottom: 3em !important;
+}
+
+@media (min-width: 465px) and (max-width: 768px) {
+  .formControl {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .formControl {
+    width: 30%;
+  }
+}
+
+.MuiInputBase-root {
+  font-family: 'Libre Baskerville', serif !important;
+}
